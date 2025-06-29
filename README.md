@@ -14,7 +14,7 @@ Targeting a modern i486 implementation makes it easy to test and debug issues.
 ### Archival / Bridging System
 To allow access to older media, like Floppy Disks and legacy drives, a system that can interface with said controllers is necessary.
 - PCI -> ISA is finnicky and doesn't work with low-level tools running on FreeDOS, OS/2 and MS-DOS.
-  - LPC -> ISA support is very dependent on the Mainboard used.
+  - LPC -> ISA support is very dependent on the Mainboard used and already on it's way out.
 
 ###	Expandable
 Having actual expansion is the core benefit of using this over SBC-like setups that work great as applianced solutions but don't provide much in terms of development.
@@ -27,6 +27,10 @@ This includes:
 - modern storage options
   - (micro)SD
   - SATA
+
+Said interfaces should be provided by the used SoM/SoC per it's own pin headers and merely "fanned out" with breakout cables.
+- The mainboard itself doesn't carry them as to save costs.
+  - OFC one can add them via PCI and/or ISA cards but that would tie up bandwith for these slots.
 
 ####	Legacy Interfaces
 Having means to interface to legagy hardware using [ISA](https://en.wikipedia.org/wiki/Industry_Standard_Architecture) (and [PCI](https://en.wikipedia.org/wiki/Peripheral_Component_Interconnect)) is the whole point of the design.
@@ -42,8 +46,9 @@ Aiming to be a a flexible and useful board for said use-cases.
 ##  Acknowledgements
 Several projects and products deserve some recognition here.
 ### These are [listed here](documentation/acknowledgements/others.tsv)
-Spechal Thanks go out to:
-- [Andy "rasteri"](https://github.com/rasteri/)
-- [Ian "polpo" Scott](https://github.com/polpo/)
-- [Sergey Kiselev](https://github.com/skiselev/)
+####  Spechal Thanks go out to:
+- [Andy "rasteri"](https://github.com/rasteri/) for the Wee86 & WeeCee
+- [Ian "polpo" Scott](https://github.com/polpo/) for the PicoGUS
+- [Sergey Kiselev](https://github.com/skiselev/) for his extremely helpful work and designs for old 8/16-bit, ISA-based systems.
+
 
