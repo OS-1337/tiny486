@@ -47,8 +47,8 @@ Aiming to be a a flexible and useful board for said use-cases.
 Several projects and products deserve some recognition here.
 ### These are [listed here](documentation/acknowledgements/others.tsv)
 ####  Spechal Thanks go out to:
-- [Andy "rasteri"](https://github.com/rasteri/) for the Wee86 & WeeCee
-- [Ian "polpo" Scott](https://github.com/polpo/) for the PicoGUS
+- [Andy "rasteri"](https://github.com/rasteri/) for the [Wee86](https://www.youtube.com/watch?v=ZBsv-jRiIT8) & [WeeCee](https://www.youtube.com/watch?v=aJEp4ZUG7BI) [project](https://github.com/rasteri/weeCee) as well as [HIDman](https://www.youtube.com/watch?v=44tg6oXGmYI) Adaptor for [PS/2](https://github.com/rasteri/HIDman)
+- [Ian "polpo" Scott](https://github.com/polpo/) for the [PicoGUS](https://github.com/polpo/picogus)
 - [Sergey Kiselev](https://github.com/skiselev/) for his extremely helpful work and designs for old 8/16-bit, ISA-based systems.
 
 
