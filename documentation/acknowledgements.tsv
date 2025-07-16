@@ -6,9 +6,10 @@ isa-fdc	Sergey Kiselev	https://github.com/skiselev/isa-fdc	A Floppy Disk Control
 isa-opl2	Sergey Kiselev	https://github.com/skiselev/isa-opl2	A OPL2-based Soundcard for 8-bit ISA Slots
 isa-super-vga	Sergey Kiselev	https://github.com/skiselev/isa-super-vga	A SuperVGA Card for 8-bit ISA Slots
 monster-fdc	Sergey Kiselev	https://github.com/skiselev/monster-fdc	A 8-port Floppy Disk Controller for 8-bit ISA Slots
-NuXT	Monotech	https://monotech.fwscart.com/product/nuxt-v2-0---microatx-turbo-xt---10mhz-832k-xt-ide-multi-io-svga	A newly made IBM PC 8086-based mainboard in MicroATX form factor.
+NuXT	Monotech	https://github.com/monotech/NuXT	A newly made IBM PC 8086-based mainboard in MicroATX form factor.
 PicoGUS	Ian Scott	https://github.com/polpo/picogus	A Raspberry Pi Pico based Soundcard that can emulate most classic Soundcards with 8-bit ISA Slots.
 PicoGUS104	Eugene Lozovoy	https://github.com/UzixLS/picogus104	A PC/104 version of the PicoGUS with integrate MIDI
 QuadFlop	TexElec	https://texelec.com/product/quad-flop-four-port-isa-floppy-controller/	A 4-port Floppy Controller for 8-bit ISA Slots
 WeeCee	Rasteri	https://github.com/rasteri/weeCee	A compact i486DX compatible mini PC
 white_river_486	Sergey Kiselev	https://github.com/skiselev/white_river_486	Open-source 486 ATX Motherboard
+itxllama	Eivind Bøhler	https://github.com/eivindbohler/itxllama	Open-source 86duino ITX Motherboard
