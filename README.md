@@ -11,6 +11,13 @@ Using old & used components to target `i486` is not a viable option, and getting
 ####	Standardized Platform to target
 Targeting a modern i486 implementation makes it easy to test and debug issues.
 
+This includes:
+- Having as much modularity as possible for integration
+- Utilizing commercial off-the-shelf parts and still new made ones wherever possible.
+  - Adapting old interfaces where doing so is a major quality-of-life improvement.
+    - I.e. USB instead of PS/2 (HIDman) and SATA instead of IDE (with some simple bridging chip).
+  - Avoiding EoL & discontinued parts as much as possible!
+
 ### Archival / Bridging System
 To allow access to older media, like Floppy Disks and legacy drives, a system that can interface with said controllers is necessary.
 - PCI -> ISA is finnicky and doesn't work with low-level tools running on FreeDOS, OS/2 and MS-DOS.
@@ -26,7 +33,9 @@ This includes:
 - Ethernet
 - modern storage options
   - (micro)SD
+    - Very convenient when it comes to small amounts of data.
   - SATA
+    - 2 Ports (from a single IDE Port, to allow both an ODD and SSD to be connected to it)
 
 Said interfaces should be provided by the used SoM/SoC per it's own pin headers and merely "fanned out" with breakout cables.
 - The mainboard itself doesn't carry them as to save costs.
