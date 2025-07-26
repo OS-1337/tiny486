@@ -8,7 +8,8 @@ A reference board for OS/1337 on i486 developent
 Using old & used components to target `i486` is not a viable option, and getting reproduceable setups this way is not a feasible option long-term, as parts dry up.
 - Fortunately, there are SBCs and SOMs using [Vortex86](https://en.wikipedia.org/wiki/Vortex86#Vortex86SX) Chips [which](https://www.vortex86.com/compare) are [i486SX](https://en.wikipedia.org/wiki/I486SX) & [i486DX](https://en.wikipedia.org/wiki/I486) compatibles.
 
-####	Standardized Platform to target
+### Standardization
+####  Platform to target
 Targeting a modern i486 implementation makes it easy to test and debug issues.
 
 This includes:
@@ -18,6 +19,7 @@ This includes:
     - [USB instead of PS/2](https://www.youtube.com/watch?v=44tg6oXGmYI) [(HIDman)](https://github.com/rasteri/HIDman)
       - Allow the use of new, COTS parts. for maximum compatibility a *"stupid"* set like the [Logitech MK120](https://www.logitech.com/en-us/shop/p/mk120-usb-keyboard-mouse) [[K120 Keyboard](https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer.920-002478) + [M100 Mouse](https://www.logitech.com/en-us/shop/p/m100-usb-mouse.910-001601)] would be fine.
     - SATA instead of IDE (with JM20330 Host Bridge Chip[s] as [they seem to be the most reliable and stable](https://www.youtube.com/watch?v=oXShc_hDuqQ&t=1373s)).
+      - [Alternatively](https://www.jmicron.com/products/list/17) JMH330 (IDE Master) + JMH330S (IDE Slave) for PATA -> SATA conversion.
       - Allow the use of new SSDs and ODDs and avoid expensive / low production number parts like some IDE-[Disk-on-Modules](https://en.wikipedia.org/wiki/Solid-state_drive#DOM).
   - Avoiding EoL & discontinued parts as much as possible!
     - Enshuring long-term availability (and reproduceability!)
