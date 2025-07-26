@@ -1,5 +1,7 @@
 FILE	SOURCE	DESCRIPTION
 95256.pdf	https://www.delock.de/produkt/95256/pdf.html?sprache=en	Datasheet for Delock #95256 MiniPCIe GPU (SM750 based)
+JM20330.pdf	https://www.digchip.com/datasheets/download_datasheet.php?id=2755473&part-number=JM20330	JMicron JM20330 Overview Sheet
+JM20330_Spec.pdf	https://ia601805.us.archive.org/13/items/JM20330/JM20330_Spec_Rev_3.0.pdf	JMicrom JM20330 Datasheet
 PC104Plus.pdf	https://pc104.org/wp-content/uploads/2015/02/PC104_Plus_v2_32.pdf	PC/104-Plus specification
 SM750.pdf	https://datasheet4u.com/pdf-down/S/M/7/SM750-SiliconMotion.pdf	Datasheet for SilicomMotion SM750 2D GPU
 PEX811s.pdf	https://docs.broadcom.com/doc/12351805	Datasheet for PEX 8112 PCI to PCIe Chip
