@@ -3,6 +3,7 @@ FILE	SOURCE	DESCRIPTION
 ATX12VC_Guide.pdf	https://edc.intel.com/content/www/us/en/design/products-and-solutions/processors-and-chipsets/alder-lake-s/atx12vo-12v-only-desktop-power-supply-design-guide/2.11/	ATX12VO Specification for Power Supplies
 ATX_Board.jpg	https://www.techpowerup.com/forums/threads/pc-component-dimensions.157239/	ATX Maindoard Dimensions and metrics
 ATX_Power_Connector.pdf	https://www.molex.com/en-us/products/part-detail/442060007?display=pdf	Electrical and mechanical specs for the ATX Power Connector
+Case-Design-Guide.jpg	https://www.protocase.com/resources/how-to-design-for-motherboards/	ATX compliant rear case design margins
 DTX.pdf	https://web.archive.org/web/20090824030803/http://www.dtxpc.org/_docs/42197-DTX_Specification.pdf	DTX Specification
 DTX_Overview.pdf	https://web.archive.org/web/20090823194411/http://www.dtxpc.org/_docs/DTX_Overview.pdf	Overview of the DTX Specification
 IO_Placement.jpg	https://www.techpowerup.com/forums/threads/pc-component-dimensions.157239/	ATX I/O Placement Guide
