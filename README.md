@@ -17,9 +17,10 @@ This includes:
 - Utilizing commercial off-the-shelf parts and still new made ones wherever possible.
   - Adapting old interfaces where doing so is a major quality-of-life improvement.
     - [USB instead of PS/2](https://www.youtube.com/watch?v=44tg6oXGmYI) [(HIDman)](https://github.com/rasteri/HIDman)
-      - Allow the use of new, COTS parts. for maximum compatibility a *"stupid"* set like the [Logitech MK120](https://www.logitech.com/en-us/shop/p/mk120-usb-keyboard-mouse) [[K120 Keyboard](https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer.920-002478) + [M100 Mouse](https://www.logitech.com/en-us/shop/p/m100-usb-mouse.910-001601)] would be fine.
-    - SATA instead of IDE (with JM20330 Host Bridge Chip[s] as [they seem to be the most reliable and stable](https://www.youtube.com/watch?v=oXShc_hDuqQ&t=1373s)).
-      - [Alternatively](https://www.jmicron.com/products/list/17) JMH330 (IDE Master) + JMH330S (IDE Slave) for PATA -> SATA conversion.
+      - Allow the use of new, COTS parts (Keyboard & Mice).
+        - For maximum compatibility a *"stupid"* set like the [Logitech MK120](https://www.logitech.com/en-us/shop/p/mk120-usb-keyboard-mouse) [[K120 Keyboard](https://www.logitech.com/en-us/shop/p/k120-usb-standard-computer.920-002478) + [M100 Mouse](https://www.logitech.com/en-us/shop/p/m100-usb-mouse.910-001601)] would be fine.
+    - SATA instead of IDE (with [JM20330](documentation/external/JM20330.pdf) Host Bridge Chip[s] as [they seem to be the most reliable and stable](https://www.youtube.com/watch?v=oXShc_hDuqQ&t=1373s)).
+      - [Alternatively](https://www.jmicron.com/products/list/17) [JMH330](documentation/external/JMH330.pdf) (IDE Master) + [JMH330S](documentation/external/JMH330S.pdf) (IDE Slave) for PATA -> SATA conversion.
       - Allow the use of new SSDs and ODDs and avoid expensive / low production number parts like some IDE-[Disk-on-Modules](https://en.wikipedia.org/wiki/Solid-state_drive#DOM).
   - Avoiding EoL & discontinued parts as much as possible!
     - Enshuring long-term availability (and reproduceability!)
@@ -50,7 +51,7 @@ This includes:
     - Very convenient when it comes to small amounts of data.
     - Works fine in Low-IOPS / Low write cycle setups.
   - SATA
-    - 2 Ports (from a single IDE Port, to allow both an ODD and SSD to be connected to it. [2x JM20330 chips])
+    - 2 Ports (from a single IDE Port, to allow both an ODD and SSD to be connected to it. [2x JM20330 chips](documentation/external/JM20330.pdf) or [JMH330](documentation/external/JMH330.pdf) + [JMH330S](documentation/external/JMH330S.pdf))
 
 Said interfaces should be provided by the used SoM/SoC per it's own pin headers and merely "fanned out" with breakout cables.
 - The mainboard itself doesn't carry them as to save costs.
