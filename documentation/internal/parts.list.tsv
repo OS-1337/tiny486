@@ -8,3 +8,4 @@ ATA to SATA Bridge Chip	JMicron	JMH330	-	-	Connects 1 SATA device to IDE Host as
 ATA to SATA Bridge Chip	JMicron	JMH330S	-	-	Connects 1 SATA device to IDE Host as ATA Slave Device
 PCI to PCIe Bridge Chip	Broadcom	PEX8112	-	-	Allows for Bridging PCI to PCIe and PCIe to PCI
 PCIe VGA Chip	SiliconMotion	SM750	-	-	2D VGA Controller, 16MB (embedded) - 64GB (external) DDR VRAM
+USB to PS/2 Bridge Chio	WCH	CH559	https://www.wch-ic.com/downloads/CH559DS1_PDF.html	-	Used to Covert USB-HID to PS/2 (HIDman)
