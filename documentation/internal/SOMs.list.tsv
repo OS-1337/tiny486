@@ -1,0 +1,5 @@
+SOM	MFG	CPU	RAM	GPU	PCI	ISA	FLASH	RS-232	LPT	SD	IDE	LAN	SATA	PCIe	USB	OTHER	DATASHEET	DISTRIBUTOR
+SOM304SX-31PINE1	ICOP	Vortex86SX @ 300MHz	128MB DDR2	XGI Volari Z9s - 32MB	yes	yes	2MB SPI	4x	1x	no	yes	100M	no	no	4x	GPIOs	documentation/external/SOM304D3_DS.pdf	https://icop-shop.com/product/som304sx31pine1/
+SOM304RD-52PINE1	ICOP	Vortex86DX @ 800MHz	256MB DDR2	no	yes	yes	4MD SPI	4x	1x	no	1x	100M	no	no	4x	GPIOs	documentation/external/SOM304RD-PI_DS.pdf	https://icop-shop.com/product/som304rd52pine1/
+SOM304RD-52VINE1	ICOP	Vortex86DX @ 800MHz	256MB DDR2	XGI Volari Z9s - 32MB	no	yes	4MD SPI	4x	1x	no	1x	100M	no	no	4x	GPIOs	documentation/external/SOM304RD-PI_DS.pdf	https://icop-shop.com/product/som304rd52pine1/
+SOM304D3-74EINE1-HS	ICOP	Vortex86DX3 @ 1GHz	1024MB DDR3	yes	no	yes	no	2x*	yes*	yes*	yes*	100M	1x	x2	4x	GPIOs	documentation/external/SOM304D3_DS.pdf	https://icop-shop.com/product/som304d374eine1-hs/

@@ -1,0 +1,10 @@
+TYPE	MFG	MODEL	WEBSITE	DISTRIBUTOR	NOTES
+System-On-Module	ICOP	SOM304SX-31PINE1	https://www.icop.com.tw/product/SOM304SX-VI	https://icop-shop.com/product/som304sx31pine1/	Vortex86SX @ 300 MHz SOM with PCI, ISA & VGA
+System-On-Module	ICOP	SOM304RD-52PINE1	https://www.icop.com.tw/product/SOM304RD-PI	https://icop-shop.com/product/som304rd52pine1/	Vortex86DX @ 800 MHz SOM with PCI & ISA
+System-On-Module	ICOP	SOM304RD-52VINE1	https://www.icop.com.tw/product/SOM304RD-VI	https://icop-shop.com/product/som304rd52vine1/	Vortex86DX @ 800 MHz SOM with ISA & VGA
+System-On-Module	ICOP	SOM304D3-74EINE1-HS	https://www.icop.com.tw/product/SOM304D3	https://icop-shop.com/product/som304d374eine1-hs/	Vortex86DX3 @ 1GHz SOM with PCIe, ISA & VGA
+ATA to SATA Bridge Chip	JMicron	JM20330	-	-	Configureable for either Device or Host Bridge.
+ATA to SATA Bridge Chip	JMicron	JMH330	-	-	Connects 1 SATA device to IDE Host as ATA Master Device
+ATA to SATA Bridge Chip	JMicron	JMH330S	-	-	Connects 1 SATA device to IDE Host as ATA Slave Device
+PCI to PCIe Bridge Chip	Broadcom	PEX8112	-	-	Allows for Bridging PCI to PCIe and PCIe to PCI
+PCIe VGA Chip	SiliconMotion	SM750	-	-	2D VGA Controller, 16MB (embedded) - 64GB (external) DDR VRAM
