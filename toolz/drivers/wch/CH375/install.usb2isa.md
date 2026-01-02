@@ -10,3 +10,5 @@
 3. Done!
 
 It'll just work!
+- Partition sizes of [128GB](https://www.youtube.com/watch?v=cgtvVi_mjjg&t=612) have been successfully used by [TechTangents.](https://www.youtube.com/watch?v=cgtvVi_mjjg&t=612)
+
