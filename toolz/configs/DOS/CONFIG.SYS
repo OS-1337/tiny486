@@ -1,0 +1,10 @@
+;	EXAMPLE CONFIG.SYS FILE
+;
+;
+;
+;	WCH CH375 USB2ISA CARD CONFIG
+LASTDRIVE=Z
+DEVICE=C:\CH375\CH375DOS.SYS @260 #07
+;	loads CH375DOS.SYS for IO 260h & IRQ 7
+:	You may need to change that for your setup.
+;	See https://www.toughdev.com/content/2018/04/usb-flash-drives-on-8-bit-isa-bus-using-ch375-isb-to-usb-adapter/ for details
